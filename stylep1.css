@@ -99,6 +99,7 @@ textarea {
 .right2{
   display: flex;
   gap: 20px;
+  
 }
 
 
@@ -117,7 +118,7 @@ textarea {
 
 }
 .onediv p{
-  border: 1px solid black;
+  border: 1px solid rgb(211, 208, 208);
   padding: 5px;
   padding-bottom: 5px;
   
@@ -129,17 +130,17 @@ textarea {
   
   
 
-  column-gap: 570px;
+  column-gap: 580px;
   margin-top: 10px;
   
 }
 .twodiv p{
-  border: 1px solid black;
+  border: 1px solid rgb(211,208,208);
   padding: 5px;
   
 }
 .table,th,tr{
-  border: 1px solid black;
+  border: 1px solid rgb(211, 208, 208);
   padding: 10px;
   
 }
@@ -156,3 +157,4 @@ textarea {
 .table{
   width: 85vw;
 }
+
