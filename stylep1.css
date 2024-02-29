@@ -36,57 +36,49 @@ textarea {
   white-space: revert;
 }
 
-
-
-
-
-.main{
-  background-color:rgb(217, 217, 236);
-  margin: 40px;
-}
-
-.iconbar{
-  background-color: rgb(31, 66, 31);
-  height: 100vh;
-  width: 50px;
-  
-
-}
 .one{
-  background-color: rgb(248, 245, 245);
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
   
-  
-  
+}
+.iconbar{
+  background-color:rgb(4, 44, 52)
+  ;
+  height:100vh;
+  width: 60px;
+
+
 }
 
   
 
 .left{
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: 80px;
-  
-  width: 100vw;
+  white-space: nowrap;
+  gap: 20px;
   display: flex;
-  gap: 10px;
+  
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 .left1{
   display: flex;
-  gap: 30px;
+  gap: 10px;
 }
 .left2{
   display: flex;
 }
   
 .right{
-  margin-top: 40px;
-  margin-left: 130px;
+  margin-top: 30px;
   
-  width: 100vw;
+  
+  
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
   flex-wrap: wrap;
   white-space: nowrap;
   
@@ -94,11 +86,16 @@ textarea {
 
 .right1{
   display: flex;
-  gap: 20px;
+  gap: 10px;
+}
+.add{
+  background-color: rgb(0, 169, 62);
+  color: white;
 }
 .right2{
   display: flex;
-  gap: 20px;
+  gap: 10px;
+  margin-left: 53px;
   
 }
 
@@ -106,38 +103,48 @@ textarea {
 .onediv{
   
   margin-top: 30px;
-  margin-left: 80px;
+  margin-left: 90px;
   width: 200vw;
-  margin-top: 40px;
+  margin-top: 0px;
   display: flex;
-  gap: 880px;
-  padding-top: 20px;
   
+  padding-top: 20px;
+}
+.onediv p{
+  
+  padding: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  
+}
+.search1{
+  border: 1px solid rgb(211,208,208);
+  margin-right: 730px;
+  background-color: rgb(244, 244, 244);
+  width: 330px;
+  padding-right:100px ;
   
   
 
 }
-.onediv p{
-  border: 1px solid rgb(211, 208, 208);
-  padding: 5px;
-  padding-bottom: 5px;
-  
+.username{
+  margin-left: 30px;
 }
 
 
 .twodiv{
   display: flex;
   
-  
+  margin-left: 10px;
 
-  column-gap: 580px;
+  column-gap: 550px;
   margin-top: 10px;
   
 }
 .twodiv p{
   border: 1px solid rgb(211,208,208);
-  padding: 5px;
-  
+  padding: 10px;
+  border-radius: 5px;
 }
 .table,th,tr{
   border: 1px solid rgb(211, 208, 208);
@@ -149,12 +156,34 @@ textarea {
 }
 
 .tablediv{
-  margin-left: 80px;
   margin-top: 50px;
-  
-  
+  margin-left: 90px;
+  font-weight:bold;
 }
 .table{
-  width: 85vw;
+  width: 90vw;
 }
-
+.accepted{
+  color: rgb(82, 135, 79);
+  background-color:rgb(212, 229, 210) ;
+  border-radius: 20px;
+  padding: 25px;
+}
+.cancelled{
+  color:rgb(82, 135, 79) ;
+  background-color:rgb(212, 229, 210) ;
+  border-radius:20px ;
+  padding: 25px;
+}
+.rejected{
+  color:rgb(235, 126, 130) ;
+  background-color:rgb(255, 241, 242) ;
+  border-radius: 20px;
+  padding: 25px;
+}
+.pending{
+  color: rgb(245, 186, 123);
+  background-color: rgb(247, 247, 180);
+  border-radius: 20px;
+  padding: 25px;
+}
