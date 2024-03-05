@@ -54,7 +54,7 @@ textarea {
 .greenbar{
   background-color:rgb(4, 44, 52);
   height: 100vh;
-  width: 50px;
+  width: 60px;
   position:sticky;
   top: 0px;
   
@@ -96,7 +96,7 @@ textarea {
   
 .right{
   margin-top: 30px;
-  
+  margin-left: 300px;
   
   
   display: flex;
@@ -110,6 +110,9 @@ textarea {
 .right1{
   display: flex;
   gap: 10px;
+  margin-left: -10px;
+  padding-left: 250px;
+
   
 }
 .add{
@@ -123,6 +126,7 @@ textarea {
   display: flex;
   gap: 10px;
   margin-left: 53px;
+  padding-left: 250px;
   
 }
 
@@ -145,18 +149,25 @@ textarea {
   border-radius: 5px;
   
 }
+
+.scissor{
+  float: right;
+}
+
 .search1{
   border: 1px solid rgb(211,208,208);
   margin-right: 730px;
   background-color: rgb(244, 244, 244);
   width: 330px;
-  padding-right:100px ;
+  padding-right:200px ;
+  
   
   
 
 }
 .username{
   margin-left: 30px;
+  cursor: pointer;
 }
 
 
@@ -165,7 +176,7 @@ textarea {
   
   margin-left: 10px;
 
-  column-gap: 550px;
+  column-gap:0px;
   margin-top: 10px;
   position: relative;
   bottom: 600px;
@@ -175,14 +186,17 @@ textarea {
   border: 1px solid rgb(211,208,208);
   padding: 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .table,th,tr{
   border: 1px solid rgb(211, 208, 208);
   padding: 10px;
   
+  
 }
 .table,td{
   padding: 10px;
+  cursor: pointer;
 }
 
 .tablediv{
@@ -191,15 +205,38 @@ textarea {
   font-weight:bold;
   position: relative;
   bottom: 600px;
+  
 }
 .table{
   width: 90vw;
 }
+.checkbox{
+  border: 1px solid black;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.quick{
+
+
+display: flex;
+justify-content: space-evenly;
+
+
+}
+
+
+  
 .accepted{
   color: rgb(82, 135, 79);
   background-color:rgb(212, 229, 210) ;
   border-radius: 20px;
+  
   padding: 25px;
+  
+  
+
+
 }
 .cancelled{
   color:rgb(82, 135, 79) ;
